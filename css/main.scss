@@ -377,8 +377,8 @@ section.contact{
   ul{
     li{
       margin-bottom: 35px;
-      input{
-        padding: 15px 20px;
+      input, textarea{ 
+        padding: 15px 20px; 
         border: 0px solid var(--color-black);
         border-radius: 20px;
         background-color: var(--color-light-grey);
@@ -387,6 +387,7 @@ section.contact{
         font-size: 1.4em;
         width: 100%;
         font-weight: 300;
+        resize: none;
       }
     }
      @media only screen and (min-width: 768px) {

@@ -150,15 +150,17 @@
       <h2 title="developer contact">contact</h2>
       <p>New Project, Project inquiry or even coffee.</p>
       <div class="contact">
-        <form action="">
+        <form name="contact" method="POST" data-netlify="true">
           <ul>
             <li><input type="text" name="name" id="" placeholder="Name*" required></li>
             <li><input type="text" name="skype" id="" placeholder="Skype"></li>
-            <li><input type="text" name="email" id="" placeholder="Email*" required></li>
-            <li><input type="text" name="phone" id="" placeholder="Phone"></li>
-            <li><input type="text-area" name="message" id="" placeholder="Message"></li>
+            <li><input type="email" name="email" id="" placeholder="Email*" required></li>
+            <li><input type="number" name="phone" id="" placeholder="Phone"></li>
+            <li>
+              <textarea name="message" cols="30" rows="5"></textarea>
+            </li>
           </ul>
-          <button class="button submit">Submit</button>
+          <button class="button submit" type="submit">Submit</button>
         </form>
       </div>    
     </section>
