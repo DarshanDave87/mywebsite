@@ -199,7 +199,7 @@ header .logo img {
 }
 
 header .nav {
-  padding: 15px;
+  padding: 25px  15px 0px;
   max-width: 410px;
   margin: 0px auto;
 }
@@ -234,7 +234,7 @@ header .nav ul li a:hover {
     display: -webkit-box;
     display: -ms-flexbox;
     display: flex;
-    padding: 15px;
+    padding: 0px 15px;
   }
   header .logo {
     background-image: none;
@@ -448,14 +448,49 @@ section.projects {
   padding: 15px;
 }
 
+section.projects ul.bx > li {
+  background-size: contain;
+  background-repeat: no-repeat;
+  background-position: center;
+  padding: 10px 35px 25px;
+  margin: 20px 0px;
+}
+
+@media only screen and (min-width: 769px) {
+  section.projects ul.bx > li {
+    min-height: 400px;
+  }
+  section.projects ul.bx > li h2, section.projects ul.bx > li p, section.projects ul.bx > li .used {
+    opacity: 0;
+    -webkit-transition: opacity 1s;
+    transition: opacity 1s;
+  }
+  section.projects ul.bx > li.project-one {
+    background-image: url(../img/project1_test.png);
+  }
+  section.projects ul.bx > li.project-two {
+    background-image: url(../img/project2.png);
+  }
+  section.projects ul.bx > li.project-three {
+    background-image: url(../img/project3.png);
+  }
+  section.projects ul.bx > li.project-four {
+    background-image: url(../img/project4.png);
+  }
+  section.projects ul.bx > li:hover {
+    background-image: none;
+  }
+  section.projects ul.bx > li:hover h2, section.projects ul.bx > li:hover p, section.projects ul.bx > li:hover .used {
+    opacity: 1;
+  }
+}
+
 section.projects ul.bx > li img {
   width: 100%;
 }
 
-section.projects ul.bx > li:nth-child(even) {
-  padding: 10px 35px 25px;
+section.projects ul.bx > li:nth-child(even):hover {
   border-radius: 20px;
-  margin: 20px 0px;
   -webkit-box-shadow: 0 0 20px -7px var(--color-black);
           box-shadow: 0 0 20px -7px var(--color-black);
 }
@@ -467,6 +502,12 @@ section.projects ul.bx > li:nth-child(odd) {
 section.projects ul.bx > li:nth-child(odd) i {
   color: var(--color-light-grey);
   font-size: 1.5em;
+}
+
+@media only screen and (min-width: 769px) {
+  section.projects ul.bx > li:nth-child(odd) {
+    display: none;
+  }
 }
 
 section.projects ul.bx > li h2 {
