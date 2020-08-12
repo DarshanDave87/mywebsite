@@ -602,9 +602,6 @@ section.contact ul {
   -webkit-box-pack: justify;
       -ms-flex-pack: justify;
           justify-content: space-between;
-  -webkit-box-align: baseline;
-      -ms-flex-align: baseline;
-          align-items: baseline;
 }
 
 section.contact ul li {
@@ -663,6 +660,9 @@ section.social-connect ul {
           justify-content: space-between;
   margin: 0 auto;
   max-width: 500px;
+  -webkit-box-align: baseline;
+      -ms-flex-align: baseline;
+          align-items: baseline;
 }
 
 section.social-connect ul li {

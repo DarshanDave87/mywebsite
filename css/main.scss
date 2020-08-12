@@ -406,7 +406,6 @@ section.contact{
     display:flex;
     flex-wrap: wrap;
     justify-content: space-between;
-    align-items: baseline;  
     li{
       flex-basis: 47%;
       margin-bottom: 35px;
@@ -449,6 +448,7 @@ section.social-connect{
     justify-content: space-between;
     margin: 0 auto;
     max-width: 500px;
+    align-items: baseline; 
     li{
       padding: 10px;
       img{width: 100%;}
