@@ -142,55 +142,55 @@ p {
 }
 
 .html {
-  background-image: url(../img/skill-html.jpg);
+  background-image: url(../img/skill-html.svg);
 }
 
 .css {
-  background-image: url(../img/skill-css.jpg);
+  background-image: url(../img/skill-css.svg);
 }
 
 .scss {
-  background-image: url(../img/skill-scss.jpg);
+  background-image: url(../img/skill-scss.svg);
 }
 
 .js {
-  background-image: url(../img/js.png);
+  background-image: url(../img/js.svg);
 }
 
 .jquery {
-  background-image: url(../img/skill-jquery.jpg);
+  background-image: url(../img/skill-jquery.svg);
 }
 
 .bootstrap {
-  background-image: url(../img/skill-bootstrap.png);
+  background-image: url(../img/skill-bootstrap.svg);
 }
 
 .foundation {
-  background-image: url(../img/skill-foundation.png);
+  background-image: url(../img/skill-foundation.svg);
 }
 
 .react {
-  background-image: url(../img/skill-react.jpg);
+  background-image: url(../img/skill-react.svg);
 }
 
 .wordpress {
-  background-image: url(../img/wordpress.png);
+  background-image: url(../img/wordpress.svg);
 }
 
 .shopify {
-  background-image: url(../img/skill-shopify.jpg);
+  background-image: url(../img/skill-shopify.svg);
 }
 
 .webflow {
-  background-image: url(../img/webflow.png);
+  background-image: url(../img/webflow.svg);
 }
 
 .photoshop {
-  background-image: url(../img/photoshop.png);
+  background-image: url(../img/photoshop.svg);
 }
 
 .xd {
-  background-image: url(../img/skill-xd.png);
+  background-image: url(../img/skill-xd.svg);
 }
 
 .brd-bottom:after {
@@ -412,7 +412,7 @@ section.about .box h3 {
 section.skill {
   text-align: center;
   border-top: 5px solid var(--color-light-grey);
-  margin-top: 20px;
+  margin-top: 70px;
   padding: 15px;
 }
 
@@ -427,6 +427,9 @@ section.skill ul {
           justify-content: space-between;
   margin-top: 20px;
   gap: 1em;
+  -webkit-box-align: baseline;
+      -ms-flex-align: baseline;
+          align-items: baseline;
 }
 
 section.skill ul li {

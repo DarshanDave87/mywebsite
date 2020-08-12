@@ -96,19 +96,19 @@ p{
     opacity: 1;
   }
 }
-.html{background-image: url(../img/skill-html.jpg);}
-.css{background-image: url(../img/skill-css.jpg);}
-.scss{background-image: url(../img/skill-scss.jpg);}
-.js{background-image: url(../img/js.png);}
-.jquery{background-image: url(../img/skill-jquery.jpg);}
-.bootstrap{background-image: url(../img/skill-bootstrap.png);}
-.foundation{background-image: url(../img/skill-foundation.png);}
-.react{background-image: url(../img/skill-react.jpg);}
-.wordpress{background-image: url(../img/wordpress.png);}
-.shopify{background-image: url(../img/skill-shopify.jpg);}
-.webflow{background-image: url(../img/webflow.png);}
-.photoshop{background-image: url(../img/photoshop.png);}
-.xd{background-image: url(../img/skill-xd.png);}
+.html{background-image: url(../img/skill-html.svg);}
+.css{background-image: url(../img/skill-css.svg);}
+.scss{background-image: url(../img/skill-scss.svg);}
+.js{background-image: url(../img/js.svg);}
+.jquery{background-image: url(../img/skill-jquery.svg);}
+.bootstrap{background-image: url(../img/skill-bootstrap.svg);}
+.foundation{background-image: url(../img/skill-foundation.svg);}
+.react{background-image: url(../img/skill-react.svg);}
+.wordpress{background-image: url(../img/wordpress.svg);}
+.shopify{background-image: url(../img/skill-shopify.svg);}
+.webflow{background-image: url(../img/webflow.svg);}
+.photoshop{background-image: url(../img/photoshop.svg);}
+.xd{background-image: url(../img/skill-xd.svg);}
 
 .brd-bottom:after{
   content: "";
@@ -282,7 +282,7 @@ section.about{
 section.skill{
   text-align: center;
   border-top: 5px solid var(--color-light-grey);
-  margin-top: 20px;
+  margin-top: 70px;
   padding: 15px;
   ul{
     display: flex;
@@ -290,6 +290,7 @@ section.skill{
     justify-content: space-between;
     margin-top: 20px;
     gap: 1em;
+    align-items: baseline;  
     li{
       flex-basis: 150px;
       padding: 20px 15px;
