@@ -427,9 +427,6 @@ section.skill ul {
           justify-content: space-between;
   margin-top: 20px;
   gap: 1em;
-  -webkit-box-align: baseline;
-      -ms-flex-align: baseline;
-          align-items: baseline;
 }
 
 section.skill ul li {
@@ -605,6 +602,9 @@ section.contact ul {
   -webkit-box-pack: justify;
       -ms-flex-pack: justify;
           justify-content: space-between;
+  -webkit-box-align: baseline;
+      -ms-flex-align: baseline;
+          align-items: baseline;
 }
 
 section.contact ul li {

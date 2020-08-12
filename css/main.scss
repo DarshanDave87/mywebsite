@@ -290,7 +290,7 @@ section.skill{
     justify-content: space-between;
     margin-top: 20px;
     gap: 1em;
-    align-items: baseline;  
+    
     li{
       flex-basis: 150px;
       padding: 20px 15px;
@@ -406,6 +406,7 @@ section.contact{
     display:flex;
     flex-wrap: wrap;
     justify-content: space-between;
+    align-items: baseline;  
     li{
       flex-basis: 47%;
       margin-bottom: 35px;
