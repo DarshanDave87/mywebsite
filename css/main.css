@@ -205,6 +205,10 @@ p {
   margin: 0px auto 0px;
 }
 
+.portfolio:after {
+  content: "";
+}
+
 header .logo {
   background-image: url(../img/header-bg.png);
   background-position: center;
