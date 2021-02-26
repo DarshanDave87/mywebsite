@@ -206,7 +206,7 @@ p {
 }
 
 .portfolio:after {
-  content: "";
+  content: "More" !important;
 }
 
 header .logo {
