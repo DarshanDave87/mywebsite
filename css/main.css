@@ -193,6 +193,10 @@ p {
   background-image: url(../img/skill-xd.svg);
 }
 
+.figma {
+  background-image: url(../img/figma.png);
+}
+
 .brd-bottom:after {
   content: "";
   width: 15%;
