@@ -205,7 +205,7 @@ p {
   margin: 0px auto 0px;
 }
 
-.portfolio:after {
+.portfolio-more:after {
   content: "More" !important;
 }
 
